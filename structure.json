@@ -1,0 +1,47 @@
+{
+  "project": {
+    "name": "Portfolio Mehdi Rejeb Kaabia",
+    "type": "Personal Website",
+    "tech_stack": ["HTML5", "CSS3", "JavaScript", "Tailwind CSS", "AOS.js"],
+    "deployment": "GitHub Pages"
+  },
+  "pages": {
+    "index": {
+      "sections": ["hero", "about", "projects", "skills", "contact"],
+      "navigation": true,
+      "footer": true
+    }
+  },
+  "components": {
+    "navigation": {
+      "type": "fixed header",
+      "links": ["About", "Projects", "Skills", "Contact"]
+    },
+    "hero": {
+      "background": "gradient with particles",
+      "content": ["name", "title", "description", "cta"]
+    },
+    "about": {
+      "layout": "2 columns",
+      "elements": ["photo", "bio", "education"]
+    },
+    "projects": {
+      "type": "grid cards",
+      "filter": true,
+      "categories": ["IoT", "AI", "Telecom"]
+    },
+    "skills": {
+      "visualization": "progress bars and icons",
+      "categories": ["Languages", "Frameworks", "Tools"]
+    },
+    "contact": {
+      "form": true,
+      "service": "Formspree",
+      "social_links": true
+    }
+  },
+  "assets": {
+    "images": ["profile photo", "project thumbnails", "skill icons"],
+    "animations": ["scroll reveal", "hover effects", "particle system"]
+  }
+}
